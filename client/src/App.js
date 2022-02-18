@@ -1,9 +1,9 @@
 import "./App.css";
 import Main from "./views/Main";
-// import Detail from "./views/Detail";
+
 import Update from "./views/Update";
 import AddAuthor from "./views/AddAuthor";
-import ErrorPAge from "./views/ErrorPAge";
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -16,7 +16,6 @@ function App() {
           {/* <Route path="product/:id" element={<Detail />} /> */}
           <Route path="author/:id/edit" element={<Update />} />
           <Route path="author/add" element={<AddAuthor />} />
-          <Route path="author/error" element={<ErrorPAge />} />
         </Routes>
       </div>
     </BrowserRouter>

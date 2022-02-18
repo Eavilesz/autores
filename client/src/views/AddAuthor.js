@@ -5,7 +5,6 @@ import { useNavigate } from "react-router-dom";
 
 export default () => {
   const [authors, setAuthors] = useState([]);
-  //   const [loaded, setLoaded] = useState(false);
   const [errors, setErrors] = useState([]);
   let navigate = useNavigate();
 
